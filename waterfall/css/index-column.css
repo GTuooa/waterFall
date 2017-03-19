@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    -webkit-column-width:205px;
+    -moz-column-width:205px;
+    column-width:205px;
+}
+.box{
+    padding: 15px 10px 0 10px;
+    display:inline-block;
+    transition: transform 1s ease;
+}
+.pic{
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    width: 165px;
+}
+.pic img{
+    display: block;
+    width: 165px;
+    height: auto;
+}
